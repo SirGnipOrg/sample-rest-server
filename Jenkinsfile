@@ -9,8 +9,8 @@ pipeline {
    stages {
       stage('Build') {
          steps {
-            echo 'testing a change to jenkinsfile'
-            sh 'mvn clean package'
+            echo 'testing a change to jenkinsfile 2'
+            //sh 'mvn clean package'
          }
       }
    }
